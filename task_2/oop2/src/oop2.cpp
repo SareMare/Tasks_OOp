@@ -7,7 +7,7 @@ using namespace std;
 void Upper_Case(string& str)
 {
     str[0] = (char)toupper(str[0]);
-    for (int i = 1; i < str.size(); i++)
+    for (int i = 0; i < str.size(); i++)
     {
         if (str[i] == ' ')
             str[i + 1] = (char)toupper(str[i + 1]);
